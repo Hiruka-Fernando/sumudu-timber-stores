@@ -2,100 +2,161 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/about.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+
     <title>About Us</title>
 </head>
 <body>
-<main style="max-width: 1400px; margin: auto;">
-
     <header>
-        <div class="logo">
-        <p>Sumudu Timber | About</p>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sumudu Timber Stores & Sawmills</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+            <li class="nav-item active"><a class="nav-link" href="products.html">PRODUCTS</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-        <nav>
-        <ul>
-            <li><a href="index.html">HOME |</a></li>
-            <li><a href="products.html">PRODUCTS |</a></li>
-            <li><a href="services.html">SERVICES |</a></li>
-            <li><a href="#about">ABOUT |</a></li>
-            <li><a href="#gallery">GALLERY |</a></li>
-            <li><a href="contact.html">CONTACT |</a></li>
-        </ul>
-        </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-        <section id="about" style="background-color:#f9f4ef; padding:4rem 2rem; font-family:'PT Sans', sans-serif;">
-    <div style="max-width:1100px; margin:auto;">
-        
-        <!-- Hero Intro -->
-        <div style="text-align:center; margin-bottom:2rem;" data-aos="fade-down">
-        <h2 style="font-family:'Playfair Display', serif; font-size:3rem; color:#7b4c2c;">About Us</h2>
-        <p style="font-size:1.2rem; color:#444; margin-top:1rem;">Reliable Timber • Precision Sawmilling • Custom Furniture</p>
-        </div>
+  <section id="about" class="py-5" style="background-color:#f9f4ef; font-family:'PT Sans', sans-serif;">
+  <div class="container">
 
-        <!-- Company Description -->
-        <div style="display:grid; grid-template-columns: 1fr 1fr; gap:3rem; align-items:center;" data-aos="fade-up">
-        <div>
-            <img src="img/team.jpg" alt="Our Team" style="width:100%; border-radius:10px; box-shadow: 0 8px 24px rgba(0,0,0,0.1);">
-        </div>
-        <div>
-            <p style="font-size:1rem; line-height:1.7; color:#333;">
-            <strong>Sumudu Timber Stores and Sawmill</strong> is a trusted provider of quality timber, sawmilling services, and custom-made furniture in Sri Lanka. With years of experience, we supply both imported and local timber to builders, contractors, and homeowners at competitive prices.
-            </p>
-            <p style="font-size:1rem; line-height:1.7; color:#333;">
-            Our mission is to deliver affordable, high-quality wood products by combining traditional craftsmanship with modern technology. Whether it’s sawing timber to your size or crafting long-lasting furniture, we focus on precision, durability, and customer satisfaction.
-            </p>
-        </div>
-        </div>
-
-        <!-- Highlights -->
-        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:2rem; margin-top:4rem;" data-aos="fade-up">
-        <div style="background:#fff; border-radius:10px; padding:2rem; box-shadow:0 4px 16px rgba(0,0,0,0.08); text-align:center;">
-            <i class="fas fa-tree" style="font-size:2rem; color:#7b4c2c;"></i>
-            <h3 style="margin-top:1rem; font-size:1.3rem; color:#333;">Wide Timber Selection</h3>
-            <p style="color:#555; font-size:0.95rem;">From Kempas to Mahogany, we supply premium imported and local wood for any project.</p>
-        </div>
-
-        <div style="background:#fff; border-radius:10px; padding:2rem; box-shadow:0 4px 16px rgba(0,0,0,0.08); text-align:center;">
-            <i class="fas fa-industry" style="font-size:2rem; color:#7b4c2c;"></i>
-            <h3 style="margin-top:1rem; font-size:1.3rem; color:#333;">Modern Sawmilling</h3>
-            <p style="color:#555; font-size:0.95rem;">Using advanced bandsaw technology, we deliver accurate and efficient timber cuts.</p>
-        </div>
-
-        <div style="background:#fff; border-radius:10px; padding:2rem; box-shadow:0 4px 16px rgba(0,0,0,0.08); text-align:center;">
-            <i class="fas fa-couch" style="font-size:2rem; color:#7b4c2c;"></i>
-            <h3 style="margin-top:1rem; font-size:1.3rem; color:#333;">Custom Furniture</h3>
-            <p style="color:#555; font-size:0.95rem;">We build strong, beautiful furniture tailored to your style and budget.</p>
-        </div>
-        </div>
-
-        <!-- Commitment -->
-        <div style="margin-top:4rem;" data-aos="fade-up">
-        <h3 style="font-family:'Playfair Display', serif; font-size:2rem; color:#5a3825;">Why Choose Us</h3>
-        <ul type="none" style="margin-top:1rem; font-size:1rem; line-height:1.8; color:#333; padding-left:1.2rem;">
-            <li>✔️ Honest pricing with no compromise on quality</li>
-            <li>✔️ Tailored timber cutting to your specific dimensions</li>
-            <li>✔️ Fast and friendly service from inquiry to delivery</li>
-            <li>✔️ Trusted by local builders, contractors & homeowners</li>
-            <li>✔️ Years of experience with a loyal returning customer base</li>
-        </ul>
-        </div>
-
-        <!-- CTA -->
-        <div style="text-align:center; margin-top:3rem;" data-aos="zoom-in">
-          <a href="tel: +94 777559182" style="display:inline-block; padding:0.75rem 2rem; background:#7b4c2c; color:#fff; border-radius:30px; text-decoration:none; font-size:1rem;">
-     <i class="fas fa-phone"></i>&nbsp;Contact Us Today
-          </a>
-        </div>
-
+    <!-- Hero Intro -->
+    <div class="text-center mb-4" data-aos="fade-down">
+      <h2 class="mb-3" style="font-family:'Playfair Display', serif; font-size:3rem; color:#7b4c2c;">About Us</h2>
+      <p class="fs-5 text-dark">Reliable Timber • Precision Sawmilling • Custom Furniture</p>
     </div>
-    </section>
-</main>
-  <footer>
-    <p>&copy; 2025 Sumudu Timber Stores & Sawmills. All rights reserved.</p>
-  </footer>
 
+    <!-- Company Description -->
+    <div class="row align-items-center g-4 mb-5" data-aos="fade-up">
+      <div class="col-md-6">
+        <img src="img/team.jpg" alt="Our Team" class="img-fluid rounded shadow">
+      </div>
+      <div class="col-md-6">
+        <p class="mb-3" style="line-height:1.7; color:#333;">
+          <strong>Sumudu Timber Stores and Sawmill</strong> is a trusted provider of quality timber, sawmilling services, and custom-made furniture in Sri Lanka. With years of experience, we supply both imported and local timber to builders, contractors, and homeowners at competitive prices.
+        </p>
+        <p style="line-height:1.7; color:#333;">
+          Our mission is to deliver affordable, high-quality wood products by combining traditional craftsmanship with modern technology. Whether it’s sawing timber to your size or crafting long-lasting furniture, we focus on precision, durability, and customer satisfaction.
+        </p>
+      </div>
+    </div>
+
+    <!-- Highlights -->
+    <div class="row g-4" data-aos="fade-up">
+      <div class="col-md-4">
+        <div class="bg-white rounded p-4 shadow-sm text-center">
+          <i class="fas fa-tree fs-2" style="color:#7b4c2c;font-size:2rem;"></i>
+          <h3 class="mt-3 fs-5 text-dark">Wide Timber Selection</h3>
+          <p class="text-muted small">From Kempas to Mahogany, we supply premium imported and local wood for any project.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-white rounded p-4 shadow-sm text-center">
+          <i class="fas fa-industry fs-2" style="color:#7b4c2c; font-size:2rem;"></i>
+          <h3 class="mt-3 fs-5 text-dark">Modern Sawmilling</h3>
+          <p class="text-muted small">Using advanced bandsaw technology, we deliver accurate and efficient timber cuts.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="bg-white rounded p-4 shadow-sm text-center">
+          <i class="fas fa-couch fs-2" style="color:#7b4c2c;font-size:2rem;"></i>
+          <h3 class="mt-3 fs-5 text-dark">Custom Furniture</h3>
+          <p class="text-muted small">We build strong, beautiful furniture tailored to your style and budget.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Commitment -->
+    <div class="mt-5" data-aos="fade-up">
+      <h3 style="font-family:'Playfair Display', serif; font-size:2rem; color:#5a3825;">Why Choose Us</h3>
+      <ul class="mt-3 list-unstyled" style="line-height:1.8; color:#333;">
+        <li>✔️ Honest pricing with no compromise on quality</li>
+        <li>✔️ Tailored timber cutting to your specific dimensions</li>
+        <li>✔️ Fast and friendly service from inquiry to delivery</li>
+        <li>✔️ Trusted by local builders, contractors & homeowners</li>
+        <li>✔️ Years of experience with a loyal returning customer base</li>
+      </ul>
+    </div>
+
+    <!-- CTA -->
+    <div class="text-center mt-4" data-aos="zoom-in">
+      <a href="tel:+94777559182" class="btn" style="background:#7b4c2c; color:#fff; border-radius:30px;">
+        <i class="fas fa-phone"></i>&nbsp;Contact Us Today
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+<footer class="bg-dark text-white py-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <h5>Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="#about" class="text-white-50">About Us</a></li>
+            <li><a href="#services" class="text-white-50">Our Services</a></li>
+            <li><a href="#contact" class="text-white-50">Contact</a></li>
+            <li><a href="#" class="text-white-50">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Products</h5>
+          <ul class="list-unstyled">
+            <li><a href="#products" class="text-white-50">Timber Planks</a></li>
+            <li><a href="#products" class="text-white-50">Wooden Beams</a></li>
+            <li><a href="#products" class="text-white-50">Custom Cuts</a></li>
+            <li><a href="#products" class="text-white-50">Sawdust & Byproducts</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Resources</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white-50">FAQs</a></li>
+            <li><a href="#" class="text-white-50">Blog</a></li>
+            <li><a href="#" class="text-white-50">Timber Guide</a></li>
+            <li><a href="#" class="text-white-50">Warranty Info</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Contact</h5>
+          <ul class="list-unstyled text-white-50">
+            <li>Email: info@sumudutimber.lk</li>
+            <li>Phone: +94 71 234 5678</li>
+            <li>Address: Galle Road, Ambalangoda</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <small>&copy; 2025 Sumudu Timber Stores & Sawmills. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

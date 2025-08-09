@@ -1,95 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Services | Sumudu Timber</title>
-  <link rel="stylesheet" href="css/services.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Services | Sumudu Timber Stores & Sawmills</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    crossorigin="anonymous"></script>
+
+  <style>
+    .container {
+      max-width: 960px;
+    }
+
+    .site-header {
+      background-color: rgba(0, 0, 0, .85);
+      backdrop-filter: saturate(180%) blur(20px);
+    }
+
+    .site-header a {
+      color: #ddd;
+      transition: color .15s ease-in-out;
+    }
+
+    .site-header a:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .flex-equal>* {
+      flex: 1;
+    }
+
+    @media (min-width: 768px) {
+      .flex-md-equal>* {
+        flex: 1;
+      }
+    }
+
+    .service-card {
+      border-radius: 21px 21px 0 0;
+      width: 80%;
+      height: 300px;
+    }
+  </style>
 </head>
+
 <body>
 
-<header>
-    <div class="logo">
-      <p>Sumudu Timber | Our Services</p>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">HOME |</a></li>
-        <li><a href="products.html">PRODUCTS |</a></li>
-        <li><a href="#services">SERVICES |</a></li>
-        <li><a href="about.html">ABOUT |</a></li>
-        <li><a href="#gallery">GALLERY |</a></li>
-        <li><a href="contact.html">CONTACT |</a></li>
-      </ul>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sumudu Timber Stores & Sawmills</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+            <li class="nav-item active"><a class="nav-link" href="products.html">PRODUCTS</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
-</header>
+  </header>
 
-<section id="services" class="services-section">
-  <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center text-white"
+     style="background: url('img/spic.jpg') no-repeat center center; background-size: cover;">
 
-  <div class="services-grid">
-    <!-- Timber Supply -->
-    <div class="service-card" data-aos="fade-up">
-      <h3> Timber Supply</h3>
-      <img src="img/s1.jpg" alt="Services" />
-      <ul>
-        <li>Imported Kempas, local Teak & Mahogany</li>
-        <li>Ideal for construction and carpentry</li>
-        <li>Durable, quality-assured materials</li>
-      </ul>
+    <!-- Dark overlay -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+                background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
+
+    <!-- Content -->
+    <div class="col-md-5 p-lg-5 mx-auto my-5" style="position: relative; z-index: 2;">
+        <h1 class="display-4 font-weight-normal" style="color: #f8f9fa;">Our Services</h1>
+        <p class="lead font-weight-normal" style="color: #e0e0e0;">
+            From sawmilling to custom timber processing, discover what we can do for you.
+        </p>
+        <a class="btn btn-outline-light" href="#">Contact Us</a>
     </div>
+</div>
 
-    <!-- Modern Sawmilling -->
-    <div class="service-card" data-aos="fade-up">
-      <h3> Modern Sawmilling</h3>
-      <img src="img/s3.jpg" alt="Services" />
-      <ul>
-        <li>Advanced bandsaw machines</li>
-        <li>Precise cuts at affordable rates</li>
-        <li>Custom sizing available</li>
-      </ul>
+
+  <!-- Services Section -->
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 p-3">
+      <h2 class="display-5">Timber Supply</h2>
+      <p class="lead">Imported Kempas, local Teak & Mahogany.<br>
+        Ideal for construction and carpentry.<br>
+        Durable, quality-assured materials.
+    </p>
     </div>
-
-    <!-- Furniture Making -->
-    <div class="service-card" data-aos="fade-up">
-      <h3> Furniture Making</h3>
-      <img src="img/s4.jpg" alt="Services" />
-      <ul>
-        <li>Custom wood furniture</li>
-        <li>Built to your design and budget</li>
-        <li>Stylish, durable & elegant</li>
-      </ul>
-    </div>
-
-    <!-- Logging & Harvesting -->
-    <div class="service-card" data-aos="fade-right">
-      <img src="img/s2.jpg" alt="Services" />
-      <h3>Logging & Harvesting</h3>
-      <p>Modern techniques for sustainable timber extraction with precision and care.</p>
-    </div>
-
-    <!-- Precision Sawmilling -->
-    <div class="service-card" data-aos="fade-up">
-      <img src="img/s5.jpg" alt="Services" />
-      <h3>Precision Sawmilling</h3>
-      <p>High-quality cutting and shaping of wood, tailored to your specifications.</p>
-    </div>
-
-    <!-- Distribution & Export -->
-    <div class="service-card" data-aos="fade-left">
-      <img src="img/s6.jpg" alt="Services" />
-      <h3>Distribution & Export</h3>
-      <p>Reliable transport solutions across Sri Lanka and Antarctica.</p>
+    <div class="bg-light shadow-sm mx-auto service-card">
+        <img src="img/s1.jpg" alt="Service Image" class="img-fluid service-img">
     </div>
   </div>
-</section>
 
+  <div class="bg-secondary text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">Modern Sawmilling</h2>
+      <p class="lead">Advanced bandsaw machines.
+        Precise cuts at affordable rates.<br>
+        Custom sizing available.
+    </p>
+    </div>
+    <div class="bg-light shadow-sm mx-auto service-card">
+        <img src="img/s3.jpg" alt="Service Image" class="img-fluid service-img">
+    </div>
+  </div>
+</div>
 
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-secondary text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">Furniture Making</h2>
+      <p class="lead">Custom wood furniture.
+        Built to your design and budget.<br>
+        Stylish, durable & elegant.
+      </p>
+    </div>
+    <div class="bg-light shadow-sm mx-auto service-card">
+        <img src="img/s4.jpg" alt="Service Image" class="img-fluid service-img">
+    </div>
+  </div>
 
-<footer>
-  <p>&copy; 2025 Sumudu Timber Stores & Sawmills. All rights reserved.</p>
-</footer>
+  <div class="bg-dark text-white pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">Custom Orders</h2>
+      <p class="lead">Need something specific? We cut to your custom size and shape.</p>
+    </div>
+    <div class="bg-light shadow-sm mx-auto service-card">
+        <img src="img/s2.jpg" alt="Service Image" class="img-fluid service-img">
+    </div>
+  </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">Logging & Harvesting</h2>
+      <p class="lead">Modern techniques for sustainable timber extraction with precision and care.</p>
+    </div>
+    <div class="bg-light shadow-sm mx-auto service-card">
+        <img src="img/s5.jpg" alt="Service Image" class="img-fluid service-img">
+    </div>
+  </div>
+
+  <div class="bg-secondary text-white pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">Distribution & Export</h2>
+      <p class="lead">On-time delivery across the region with careful loading and handling.</p>
+    </div>
+    <div class="bg-light shadow-sm mx-auto service-card">
+        <img src="img/s6.jpg" alt="Service Image" class="img-fluid service-img">
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <h5>Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="#about" class="text-white-50">About Us</a></li>
+            <li><a href="#services" class="text-white-50">Our Services</a></li>
+            <li><a href="#contact" class="text-white-50">Contact</a></li>
+            <li><a href="#" class="text-white-50">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Products</h5>
+          <ul class="list-unstyled">
+            <li><a href="#products" class="text-white-50">Timber Planks</a></li>
+            <li><a href="#products" class="text-white-50">Wooden Beams</a></li>
+            <li><a href="#products" class="text-white-50">Custom Cuts</a></li>
+            <li><a href="#products" class="text-white-50">Sawdust & Byproducts</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Resources</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white-50">FAQs</a></li>
+            <li><a href="#" class="text-white-50">Blog</a></li>
+            <li><a href="#" class="text-white-50">Timber Guide</a></li>
+            <li><a href="#" class="text-white-50">Warranty Info</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h5>Contact</h5>
+          <ul class="list-unstyled text-white-50">
+            <li>Email: info@sumudutimber.lk</li>
+            <li>Phone: +94 71 234 5678</li>
+            <li>Address: Galle Road, Ambalangoda</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <small>&copy; 2025 Sumudu Timber Stores & Sawmills. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
 
 </body>
+
 </html>
