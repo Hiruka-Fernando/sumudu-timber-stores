@@ -1,45 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Browse premium timber, plywood, and custom wood products from Sumudu Timber Stores. Quality materials for every building project.">
-  <meta name="author" content="Sumudu Timber Stores & Sawmills">
-  <title>Our Products | Sumudu Timber Stores & Sawmills</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Browse premium timber, plywood, and custom wood products from Sumudu Timber Stores. Quality materials for every building project." />
+  <meta name="author" content="Sumudu Timber Stores & Sawmills" />
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
-    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
+  <title>Products | Sumudu Timber Stores & Sawmills</title>
 
+  <link rel="stylesheet" href="css/product.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.min.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
-
 <body>
-
-    <header>
+  <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Sumudu Timber Stores & Sawmills</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
-            <li class="nav-item active"><a class="nav-link" href="products.html">PRODUCTS</a></li>
+            <li class="nav-item active">
+              <a class="nav-link active" aria-current="page" href="products.html"
+                >PRODUCTS</a
+              >
+            </li>
             <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
             <li class="nav-item"><a class="nav-link" href="gallery.html">GALLERY</a></li>
             <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
@@ -47,97 +77,452 @@
     </nav>
   </header>
 
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center text-white"
-     style="background: url('img/pic.jpg') no-repeat center center; background-size: cover;">
-        <div class="col-md-5 p-lg-5 mx-auto my-5">
-            <h1 class="display-4 font-weight-normal">Premium Timber Solutions</h1>
-            <p class="lead font-weight-normal">Quality timber & sawmill services at competitive prices. Trusted by professionals across Sri Lanka.</p>
-            <a class="btn btn-outline-light" href="more-products.html">Explore Products</a>
+  <main class="mt-5 pt-5">
+    <!-- Hero section -->
+    <section
+  class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center"
+  style="
+    background: url('img/pic.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 350px;
+  "
+>
+  <div
+    class="col-md-7 p-lg-5 mx-auto my-5 position-relative rounded"
+    style="background-color: rgba(255, 255, 255, 0.5); color: #222;"
+  >
+    <h2 class="display-4 font-weight-normal section-title" style="color: #222;">
+      Woods
+    </h2>
+    <p class="lead font-weight-normal">
+      Explore Our Range of Quality Timber
+    </p>
+    <p>
+      From imported hardwoods to locally processed options, we offer a wide
+      selection of durable, high-grade timber for roofing, ceilings,
+      flooring, and interior finishes.
+    </p>
+    <p>
+      Available in standard and custom sizes to match your project needs.
+    </p>
+  </div>
+</section>
+
+
+    <!-- Roofing Section -->
+    <section class="container my-5">
+      <h2 class="mb-4" style="font-family: 'Georgia', serif; font-size: 2.5rem; font-weight: 600;">
+    Roofing
+  </h2>
+      <p class="mb-4">
+        Strong and Reliable woods ideal for Roofing and Ceiling work, Built to
+        withstand Time, Weather and Weight.
+      </p>
+
+      <div class="row g-4">
+        <!-- Kempas -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="img/kempas.jpg"
+              class="card-img-top img-fluid"
+              alt="Kempas"
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h3>Kempas (කෙම්පස්)</h3>
+              <p>
+                Looking for strong long-lasting timber ideal for roofing and
+                heavy-duty construction? Our <b>Kempas Wood</b>, imported from
+                Malaysia, is a top choice across Sri Lanka. Known for its
+                <b>exceptional strength</b>, and rich appearance, kempas is
+                perfect for high-load applications like roofing, beams, and
+                structural framing.
+              </p>
+              <p>
+                Available in a wide range of sizes including
+                <b>2x4, 2x5, 2x6, 2x8, 3x4, 3x6, 3x8, 4x6, 4x8</b> and
+                <b>lengths up to 24feet,</b> we offer flexible options to suit
+                every project. All at <b>competitive, reasonable prices</b> -
+                ensuring you get quality without compromise.
+              </p>
+            </div>
+          </div>
         </div>
+
+        <!-- Grandis -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="img/grandis.jpg"
+              class="card-img-top img-fluid"
+              alt="Grandis"
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h3>Grandis (ගාන්ඩිස්)</h3>
+              <p>
+                Looking for more <b>cost-effective solution</b> without
+                compromising on quality? Our <b>Grandis (ගාන්ඩිස්) timber</b>
+                is the ideal choice. Locally <b>sawed in our own modern mills,</b>
+                Grandis is widely used as a roofing timber alternative to
+                Kempas, offering <b>strength, durability, and a smooth finish</b>
+                at a more affordable price.
+              </p>
+              <p>
+                We offer <b>custom prices</b> to match your exact requirements,
+                making it a perfect fit for roofing, framing and general
+                construction work. Get the flexibility you need, backed by
+                <b>local expertise and competitive pricing.</b>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coconut -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="img/coconut.jpg"
+              class="card-img-top img-fluid"
+              alt="Coconut"
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h3>Coconut (පොල්)</h3>
+              <p>
+                Our <b>Coconut wood </b>is a sustainable, versatile timber
+                option, <b>processed with precision in our modern mills</b> to
+                ensure a <b>high-quality finish and durability.</b> Widely used
+                for <b>roof structures and ceiling panels,</b> this wood blends
+                strength with a naturally beautiful grain, adding both function
+                and style to your projects.
+              </p>
+              <p>
+                Available in standard sizes like <b>1x2, 2x2, 2x4, 3x4,</b> and
+                offered in <b>custom sizes</b> to suit your unique construction
+                needs. Coconut wood is a smart, affordable choice for builders
+                who want quality and eco-friendly performance in one.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pinewood -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="img/pinewood.jpg"
+              class="card-img-top img-fluid"
+              alt="Pinewood"
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h3>Pinewood (ෆයින්වුඩ්)</h3>
+              <p>
+                High-quality <b>imported Pinewood</b>, ideal for
+                <b>roofing, ceiling, and interior design</b> work. Lightweight,
+                durable, and visually appealing with a smooth grain.
+              </p>
+              <p>
+                Available in standard sizes (6"). Pinewood offers both beauty
+                and versatility in one package.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chinaberry -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="img/lunumidella.jpg"
+              class="card-img-top img-fluid"
+              alt="Chinaberry"
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h3>Chinaberry (ලුනුමිදෙල්ල)</h3>
+              <p>
+                Lunumidella is ideal for <b>roof ceilings and interior paneling,</b>
+                also a great <b>local alternative to Pinewood.</b> It's
+                <b>affordable, high quality,</b> and offers a smooth finish,
+                making it perfect for stylish yet cost-effective builds.
+              </p>
+              <p>Available in standard and <b>custom sizes.</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Local Wood Section -->
+    <section class="container my-5">
+      <h2 class="mb-4" style="font-family: 'Georgia', serif; font-size: 2.5rem; font-weight: 600;">
+    Local Wood
+  </h2>
+      <p class="mb-4">
+        Locally Sourced & Milled, Perfect for Framing, High-end furniture,
+        Doors, Interior woodwork & Durable structural work.
+      </p>
+
+      <div class="row g-4">
+        <!-- Teak -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="img/teak.jpg"
+              class="card-img-top img-fluid"
+              alt="Teak"
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h3>Teak (තේක්ක)</h3>
+              <p>We offer high-quality teak wood in a variety of sizes to suit all your needs.</p>
+              <p>
+                Choose from planks in widths form <b>4" to 10"</b>, and more,
+                with standard thickness options of <b>1", 1 1/8"</b> and as
+                required, as well as commonly used beam sizes like <b>2x4</b>
+                and <b>3x4</b> ideal for framing, furniture making, and general
+                construction.
+              </p>
+              <p>
+                Need a specific size?<br />
+                Our custom cutting services ensure you get exactly what you
+                require, all at reasonable and competitive prices.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jak -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="img/jak.jpg"
+              class="card-img-top img-fluid"
+              alt="Jak"
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h3>Jak (කොස්)</h3>
+              <p>
+                Our selection of <b>Jack wood</b> offers natural beauty and
+                strength, ideal for <b>doors, windows, and classic furniture.</b>
+              </p>
+              <p>
+                Choose from a wide range of planks in widths of <b>4" to 10"</b>
+                and more with standard thickness of <b>1", 1 1/8"</b> and as
+                required, as well as commonly used beam sizes like <b>2x3</b>
+                and <b>3x4</b>.
+              </p>
+              <p>
+                We also offer <b>custom sizing</b> to match your needs. Jack wood
+                from <i>Sumudu Timber Stores</i> is locally sourced and priced
+                to give you the best value without compromising on quality.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mahogany -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img
+              src="img/mahogany.jpg"
+              class="card-img-top img-fluid"
+              alt="Mahogany"
+              style="height: 200px; object-fit: cover"
+            />
+            <div class="card-body">
+              <h3>Mahogany (මහෝගනී)</h3>
+              <p>
+                We offer premium-grade <b>Mahogany wood,</b> known for its rich
+                colour, smooth grain, and lasting durability.
+              </p>
+              <p>
+                Availability in a variety of widths from <b>4" to 10"</b>, with
+                thickness including <b>1" and 1 1/8"</b>, it's perfect for
+                <b>high-end furniture, doors, and interior wood work</b> and we
+                provide <b>custom cuts</b> to meet your exact requirements, all
+                at <b>affordable prices with reliable quality.</b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+  <h2 class="mb-4" style="font-family: 'Georgia', serif; font-size: 2.5rem; font-weight: 600;">
+    Other Woods
+  </h2>
+  <p class="mb-5 text-muted" style="max-width: 600px;">
+    Explore our carefully selected range of durable timber types, perfect for roofing, furniture, interiors, and more.
+  </p>
+
+  <div class="row g-4">
+    <!-- Card Template -->
+    <div class="col-12 col-md-4">
+      <div class="card shadow-sm h-100 border-0">
+        <img
+          src="img/kempas.jpg"
+          alt="Kempas"
+          class="card-img-top"
+          style="height: 220px; object-fit: cover;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Kempas (කෙම්පස්)</h5>
+          <p class="card-text text-secondary" style="font-size: 0.95rem;">
+            Strong, long-lasting imported timber ideal for roofing and heavy construction.
+          </p>
+        </div>
+      </div>
     </div>
 
-    
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-
-    <div style="background-color: #8D6E63;" class="text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-            <h2 class="display-5">Premium Timber</h2>
-            <p class="lead">High-grade timber for structural, decorative, and custom woodworking needs.</p>
+    <div class="col-12 col-md-4">
+      <div class="card shadow-sm h-100 border-0">
+        <img
+          src="img/grandis.jpg"
+          alt="Grandis"
+          class="card-img-top"
+          style="height: 220px; object-fit: cover;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Grandis (ගාන්ඩිස්)</h5>
+          <p class="card-text text-secondary" style="font-size: 0.95rem;">
+            Cost-effective locally sawn timber, durable and smooth-finished for roofing and framing.
+          </p>
         </div>
-        <div style="background-color: #F5F5F5;" class="shadow-sm mx-auto"
-             style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
     </div>
 
-
-    <div style="background-color: #F5F5F5;" class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-            <h2 class="display-5">Sawmill Services</h2>
-            <p class="lead">Precision cutting, sizing, and custom timber processing by experienced professionals.</p>
+    <div class="col-12 col-md-4">
+      <div class="card shadow-sm h-100 border-0">
+        <img
+          src="img/coconut.jpg"
+          alt="Coconut"
+          class="card-img-top"
+          style="height: 220px; object-fit: cover;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Coconut (පොල්)</h5>
+          <p class="card-text text-secondary" style="font-size: 0.95rem;">
+            Sustainable timber with a beautiful grain, perfect for roof structures and ceiling panels.
+          </p>
         </div>
-        <div style="background-color: #6D4C41;" class="shadow-sm mx-auto"
-             style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div>
-</div>
-
-
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div style="background-color: #F5F5F5;" class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-            <h2 class="display-5">Imported Hardwoods</h2>
-            <p class="lead">We stock high-demand woods like teak, merbau, and mahogany, imported for premium builds.</p>
-        </div>
-        <div style="background-color: #5D4037;" class="shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
     </div>
 
-    <div style="background-color: #A1887F;" class="text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-            <h2 class="display-5">Local Timber Varieties</h2>
-            <p class="lead">Affordable, eco-friendly options sourced locally for all types of construction projects.</p>
+    <!-- Second Row -->
+    <div class="col-12 col-md-4">
+      <div class="card shadow-sm h-100 border-0">
+        <img
+          src="img/pinewood.jpg"
+          alt="Pinewood"
+          class="card-img-top"
+          style="height: 220px; object-fit: cover;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Pinewood (ෆයින්වුඩ්)</h5>
+          <p class="card-text text-secondary" style="font-size: 0.95rem;">
+            Lightweight imported pinewood, ideal for roofing, ceiling, and interiors.
+          </p>
         </div>
-        <div style="background-color: #F5F5F5;" class="shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div>
-</div>
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div style="background-color: #5D4037;" class="text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-            <h2 class="display-5">Timber for Roofing</h2>
-            <p class="lead">Durable and treated timber beams designed for lasting support in all climates.</p>
-        </div>
-        <div style="background-color: #F5F5F5;" class="shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div>
-
-    <div style="background-color: #F5F5F5;" class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-            <h2 class="display-5">Flooring & Finishes</h2>
-            <p class="lead">Smooth, elegant timber for interior flooring, ceiling panels, and decorative work.</p>
-        </div>
-        <div style="background-color: #5D4037;" class="shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
-    </div>
-</div>
-
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div style="background-color: #F5F5F5;" class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 p-3">
-            <h2 class="display-5">Custom Timber Orders</h2>
-            <p class="lead">Need something unique? We offer tailored dimensions, cuts, and finishes to fit any design.</p>
-        </div>
-        <div style="background-color: #A1887F;" class="shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
     </div>
 
-    <div style="background-color: #333;" class="text-white mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-        <div class="my-3 py-3">
-            <h2 class="display-5">Reliable Delivery</h2>
-            <p class="lead">On-time delivery across Sri Lanka with safe handling and careful packaging.</p>
+    <div class="col-12 col-md-4">
+      <div class="card shadow-sm h-100 border-0">
+        <img
+          src="img/lunumidella.jpg"
+          alt="Chinaberry"
+          class="card-img-top"
+          style="height: 220px; object-fit: cover;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Chinaberry (ලුනුමිදෙල්ල)</h5>
+          <p class="card-text text-secondary" style="font-size: 0.95rem;">
+            Affordable local timber, great for ceilings and paneling with a smooth finish.
+          </p>
         </div>
-        <div style="background-color: #F5F5F5;" class="shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
     </div>
-</div>
 
+    <div class="col-12 col-md-4">
+      <div class="card shadow-sm h-100 border-0">
+        <img
+          src="img/teak.jpg"
+          alt="Teak"
+          class="card-img-top"
+          style="height: 220px; object-fit: cover;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Teak (තේක්ක)</h5>
+          <p class="card-text text-secondary" style="font-size: 0.95rem;">
+            Premium quality teak for framing, furniture, and structural uses.
+          </p>
+        </div>
+      </div>
+    </div>
 
+    <!-- Third Row -->
+    <div class="col-12 col-md-4">
+      <div class="card shadow-sm h-100 border-0">
+        <img
+          src="img/jak.jpg"
+          alt="Jak"
+          class="card-img-top"
+          style="height: 220px; object-fit: cover;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Jak (කොස්)</h5>
+          <p class="card-text text-secondary" style="font-size: 0.95rem;">
+            Strong and beautiful local wood, ideal for doors, windows, and furniture.
+          </p>
+        </div>
+      </div>
+    </div>
 
-    <footer class="bg-dark text-white py-5 mt-5">
+    <div class="col-12 col-md-4">
+      <div class="card shadow-sm h-100 border-0">
+        <img
+          src="img/mahogany.jpg"
+          alt="Mahogany"
+          class="card-img-top"
+          style="height: 220px; object-fit: cover;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Mahogany (මහෝගනී)</h5>
+          <p class="card-text text-secondary" style="font-size: 0.95rem;">
+            Rich colour and smooth grain, perfect for high-end furniture and interior woodwork.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <div class="card shadow-sm h-100 border-0">
+        <img
+          src="img/nedun.jpg"
+          alt="Nedun"
+          class="card-img-top"
+          style="height: 220px; object-fit: cover;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Nedun (නැදුන්)</h5>
+          <p class="card-text text-secondary" style="font-size: 0.95rem;">
+            Premium hardwood with fine grain and rich reddish-brown hue.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="bg-dark text-white py-5 mt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-3 mb-3">
@@ -181,7 +566,5 @@
       </div>
     </div>
   </footer>
-
 </body>
-
 </html>
