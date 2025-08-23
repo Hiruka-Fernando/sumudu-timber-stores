@@ -2,3 +2,31 @@ body { font-family: 'PT Sans', sans-serif; }
     h2.section-title { font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #7b4c2c; }
     .card img { height: 200px; object-fit: cover; }
     .card h3, .card-title { font-family: 'Georgia', serif; color: #5a3825; font-size: 1.25rem; }
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+    background-color: #20b955;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.whatsapp-float i {
+    font-size: 24px;
+}
