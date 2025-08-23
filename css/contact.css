@@ -1,26 +1,52 @@
 body {
-    background-color: #f8f4f1;
-  }
-  .section-title {
-    font-size: 2.5rem;
-    font-family: 'Playfair Display', serif;
-    color: #7b4c2c;
-  }
-  .contact-info i {
-    color: #7b4c2c;
-    width: 30px;
-  }
-  .btn-custom {
-    background-color: #7b4c2c;
-    color: white;
-    border-radius: 25px;
-    transition: background-color 0.3s ease;
-  }
-  .btn-custom:hover {
-    background-color: #5a3825;
-  }
-  iframe {
-    border: 0;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-  }
+    background: #E0F7FF;
+    font-family: 'Arial', sans-serif;
+}
+
+.section-title {
+    color: #005F73;
+    font-weight: 700;
+}
+
+.contact-info {
+    color: #0077B6;
+}
+.bg-white {
+    background-color: #CAF0F8 !important;
+}
+
+.btn-custom {
+    background-color: #00B4D8;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-custom:hover {
+    background-color: #0077B6;
+    color: #fff;
+}
+
+footer {
+    background-color: #0077B6 !important;
+    color: #E0F7FF;
+}
+footer a.text-white-50 {
+    color: #CAF0F8 !important;
+}
+footer a.text-white-50:hover {
+    color: #A2F4FD !important;
+}
+
+.form-control:focus {
+    border-color: #00B4D8;
+    box-shadow: 0 0 0 0.2rem rgba(0, 180, 216, 0.25);
+}
+
+iframe {
+    border: 3px solid #A2F4FD;
+    border-radius: 8px;
+}
+
+.shadow-sm {
+    box-shadow: 0 4px 12px rgba(162, 244, 253, 0.3) !important;
+}

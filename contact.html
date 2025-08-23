@@ -18,6 +18,61 @@
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
 
+    <style>
+body {
+    background: #E0F7FF;
+    font-family: 'Arial', sans-serif;
+}
+
+.section-title {
+    color: #005F73;
+    font-weight: 700;
+}
+
+.contact-info {
+    color: #0077B6;
+}
+.bg-white {
+    background-color: #CAF0F8 !important;
+}
+
+.btn-custom {
+    background-color: #00B4D8;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-custom:hover {
+    background-color: #0077B6;
+    color: #fff;
+}
+
+footer {
+    background-color: #0077B6 !important;
+    color: #E0F7FF;
+}
+footer a.text-white-50 {
+    color: #CAF0F8 !important;
+}
+footer a.text-white-50:hover {
+    color: #A2F4FD !important;
+}
+
+.form-control:focus {
+    border-color: #00B4D8;
+    box-shadow: 0 0 0 0.2rem rgba(0, 180, 216, 0.25);
+}
+
+iframe {
+    border: 3px solid #A2F4FD;
+    border-radius: 8px;
+}
+
+.shadow-sm {
+    box-shadow: 0 4px 12px rgba(162, 244, 253, 0.3) !important;
+}
+</style>
+
 </head>
 <body>
     <header>
@@ -56,16 +111,16 @@
       <div class="p-4 bg-white rounded shadow-sm h-100">
         <h4 class="mb-3">Get In Touch</h4>
         <p class="d-flex align-items-center mb-2 contact-info">
-          <i class="fas fa-phone me-2"></i>077 755 9182
+          <i class="fas fa-phone me-2"></i>&nbsp;077 755 9182
         </p>
         <p class="d-flex align-items-center mb-2 contact-info">
-          <i class="fas fa-envelope me-2"></i>sumuduleeweladasela@gmail.com
+          <i class="fas fa-envelope me-2"></i>&nbsp;sumuduleeweladasela@gmail.com
         </p>
         <p class="d-flex align-items-center mb-2 contact-info">
-          <i class="fas fa-map-marker-alt me-2"></i>Sumudu Timber Stores, Semarippuwa, Kakkapalliya.
+          <i class="fas fa-map-marker-alt me-2"></i>&nbsp;Sumudu Timber Stores, Semarippuwa, Kakkapalliya.
         </p>
         <p class="d-flex align-items-center contact-info">
-          <i class="fas fa-clock me-2"></i>Mon - Sat: 8:00 AM - 6:00 PM
+          <i class="fas fa-clock me-2"></i>&nbsp;Mon - Sat: 8:00 AM - 6:00 PM
         </p>
       </div>
     </div>
@@ -88,6 +143,12 @@
             <label for="email" class="form-label">Email Address</label>
             <input type="email" id="email" name="email" class="form-control" placeholder="you@example.com" required>
           </div>
+
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" id="phone" name="phone" class="form-control" placeholder="your mobile number (+94)" required>
+          </div>
+
 
           <div class="mb-3">
             <label for="subject" class="form-label">Subject</label>
