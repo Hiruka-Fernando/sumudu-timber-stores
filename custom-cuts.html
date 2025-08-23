@@ -1,68 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Cuts - Sumudu Timber Stores</title>
-    <link rel="stylesheet" href="css/product.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Custom Cuts | Sumudu Timber Stores & Sawmills</title>
+  <link rel="stylesheet" href="css/product.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sumudu Timber Stores & Sawmills</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<!-- Intro Section -->
-<section class="wood-section">
-    <div class="wood-background">
-        <img src="img/pic.jpg" alt="Wood Background" class="wood-bg-img">
-        <div class="wood-overlay">
-            <h2 class="section-title">Custom Cuts</h2>
-            <p>Get timber cut to your exact specifications for any project.</p>
-            <p>Our advanced milling ensures precision and consistency.</p>
-            <p>Available for all wood types in our inventory.</p>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link active" href="products.html">PRODUCTS</a></li>
+            <li class="nav-item"><a class="nav-link" href="timber-planks.html">Timber Planks</a></li>
+            <li class="nav-item"><a class="nav-link" href="wooden-beams.html">Wooden Beams</a></li>
+            <li class="nav-item"><a class="nav-link active" href="custom-cuts.html">Custom Cuts</a></li>
+            <li class="nav-item"><a class="nav-link" href="byproducts.html">Sawdust & Byproducts</a></li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center d-flex align-items-center justify-content-center"
+    style="background: url('img/pic.jpg') center/cover no-repeat; min-height: 350px; margin-top:56px;">
+    <div class="p-4 rounded" style="max-width: 700px; background: rgba(0, 0, 0, 0.5);">
+      <h2 class="section-title mb-3" style="color:#fff;">Custom Cuts</h2>
+      <p class="lead text-light">Get timber cut to your exact specifications for any project.</p>
+      <p class="text-light">Our advanced milling ensures precision and consistency.</p>
+      <p class="text-light">Available for all wood types in our inventory.</p>
     </div>
-</section>
+  </section>
 
-<!-- Custom Cuts Section -->
-<h2 class="section-title" style="text-align: left; margin-left: 14%; font-size: 35px; font-family: 'Georgia', serif;">Tailored Timber Solutions</h2>
-<div class="para">
-    <p>From specialty furniture pieces to unique construction requirements, we cut to your needs.</p>
-</div>
+  <!-- Custom Cuts Section -->
+  <section class="container my-5">
+    <h2 class="section-title text-center mb-4">Tailored Timber Solutions</h2>
+    <p class="text-center text-muted mb-5">From specialty furniture pieces to unique construction requirements, we cut to your needs.</p>
 
-<div class="grid">
-    <!-- Teak -->
-    <div class="card">
-        <div class="card-content">
+    <div class="row g-4">
+      <!-- Teak -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="img/teak.jpg" class="card-img-top" alt="Teak">
+          <div class="card-body">
             <h3>Teak (තේක්ක)</h3>
-            <img src="img/teak.jpg" alt="Teak">
             <p>Available in widths from <b>4" to 10"</b> with thickness options <b>1", 1 1/8"</b> and more. We cut beams, planks, and custom profiles to your specifications.</p>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!-- Jak -->
-    <div class="card">
-        <div class="card-content">
+      <!-- Jak -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="img/jak.jpg" class="card-img-top" alt="Jak">
+          <div class="card-body">
             <h3>Jak (කොස්)</h3>
-            <img src="img/jak.jpg" alt="Jak">
             <p>Custom-sized Jack wood for doors, windows, and furniture. Options from narrow planks to wide panels and beams.</p>
+          </div>
         </div>
-    </div>
+      </div>
 
-    <!-- Mahogany -->
-    <div class="card">
-        <div class="card-content">
+      <!-- Mahogany -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="img/mahogany.jpg" class="card-img-top" alt="Mahogany">
+          <div class="card-body">
             <h3>Mahogany (මහෝගනී)</h3>
-            <img src="img/mahogany.jpg" alt="Mahogany">
             <p>We offer custom lengths and thicknesses for premium furniture and paneling applications.</p>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </section>
 
-<footer class="bg-dark text-white py-5 mt-5">
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5 mt-5">
       <div class="text-center mt-4">
         <small>&copy; 2025 Sumudu Timber Stores & Sawmills. All rights reserved.</small>
       </div>
     </div>
-</footer>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
