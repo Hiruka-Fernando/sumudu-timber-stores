@@ -1,0 +1,98 @@
+/* ---- Carousel (from home.css) ---- */
+.home-carousel {
+  margin-bottom: 4rem;
+}
+
+.home-carousel .carousel-item {
+  height: 32rem;
+}
+
+.home-carousel .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 32rem;
+  object-fit: cover; /* added: stops the banner stretching */
+}
+
+/* Dark overlay so the caption text stays readable on any image */
+.home-carousel .carousel-item::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
+
+.home-carousel .carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* ---- Marketing columns ---- */
+.marketing .product-col {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .product-col p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.product-thumb {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+/* ---- Featurettes ---- */
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+/* ---- Locate us ---- */
+.locate-us {
+  background-color: #efebe9;
+}
+
+.locate-map {
+  height: 100%;
+  min-height: 380px;
+}
+
+.locate-map iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---- Responsive (from home.css) ---- */
+@media (min-width: 40em) {
+  .home-carousel .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}

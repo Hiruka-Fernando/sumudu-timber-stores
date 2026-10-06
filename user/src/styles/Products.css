@@ -1,0 +1,42 @@
+/* Scoped to the products page (was global in product.css) */
+.products-page {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.products-page .section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #7b4c2c;
+}
+
+.products-page .card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.products-page .card h3,
+.products-page .card-title {
+  font-family: 'Georgia', serif;
+  color: #5a3825;
+  font-size: 1.25rem;
+}
+
+.products-hero {
+  background: url('/img/pic.jpg') center / cover no-repeat;
+  min-height: 350px;
+  margin-top: 56px;
+}
+
+.products-hero-box {
+  max-width: 700px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.products-hero .section-title {
+  color: #fff;
+}
+
+.section-title-left {
+  text-align: left;
+  margin-left: 2%;
+}
