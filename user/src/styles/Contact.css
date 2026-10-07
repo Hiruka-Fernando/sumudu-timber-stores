@@ -1,0 +1,59 @@
+/* Blue theme from the original contact page. Page-level rules are scoped to
+   .contact-page; body/footer rules rely on the contact-theme body class
+   that Contact.tsx adds while mounted. */
+body.contact-theme {
+  background: #e0f7ff;
+  font-family: 'Arial', sans-serif;
+}
+
+body.contact-theme footer {
+  background-color: #0077b6 !important;
+  color: #e0f7ff;
+}
+
+body.contact-theme footer a.text-white-50 {
+  color: #caf0f8 !important;
+}
+
+body.contact-theme footer a.text-white-50:hover {
+  color: #a2f4fd !important;
+}
+
+.contact-page .section-title {
+  color: #005f73;
+  font-weight: 700;
+}
+
+.contact-page .contact-info {
+  color: #0077b6;
+}
+
+.contact-page .bg-white {
+  background-color: #caf0f8 !important;
+}
+
+.contact-page .shadow-sm {
+  box-shadow: 0 4px 12px rgba(162, 244, 253, 0.3) !important;
+}
+
+.contact-page .btn-custom {
+  background-color: #00b4d8;
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-page .btn-custom:hover {
+  background-color: #0077b6;
+  color: #fff;
+}
+
+.contact-page .form-control:focus {
+  border-color: #00b4d8;
+  box-shadow: 0 0 0 0.2rem rgba(0, 180, 216, 0.25);
+}
+
+.contact-page iframe {
+  border: 3px solid #a2f4fd;
+  border-radius: 8px;
+}

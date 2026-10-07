@@ -1,0 +1,48 @@
+/* Standalone page (no navbar/footer), like the original thank-you.html */
+.thank-you-page {
+  /* cancel the body's 3rem top/bottom padding so the background fills the screen */
+  margin: -3rem 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f9f4ef;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.thank-you-box {
+  max-width: 600px;
+  background: #fff;
+  padding: 3rem 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.thank-you-box h1 {
+  font-size: 2.5rem;
+  color: #7b4c2c;
+  margin-bottom: 1rem;
+}
+
+.thank-you-box p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.thank-you-box a {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: #7b4c2c;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.thank-you-box a:hover {
+  background-color: #5a3825;
+}

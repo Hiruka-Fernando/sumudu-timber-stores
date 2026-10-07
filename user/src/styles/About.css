@@ -1,0 +1,31 @@
+.about-page {
+  background-color: #f9f4ef;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.about-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #7b4c2c;
+}
+
+.about-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #5a3825;
+}
+
+.about-text {
+  line-height: 1.7;
+  color: #333;
+}
+
+.about-reasons {
+  line-height: 1.8;
+  color: #333;
+}
+
+.about-icon {
+  color: #7b4c2c;
+  font-size: 2rem;
+}
